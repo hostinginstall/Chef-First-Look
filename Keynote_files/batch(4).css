@@ -1,0 +1,43 @@
+.content-navigation .ajs-button .share>span{padding-left:0;}
+.content-navigation .ajs-button .share>span::before{content:"V";}
+#inline-dialog-shareContentPopup .contents{overflow:visible;}
+.share-content-popup .button-panel{text-align:right;}
+.share-content-popup .button-panel input:disabled{color:graytext;}
+.share-content-popup .button-panel .close-dialog{padding-left:5px;}
+form.share-content-popup .textarea{height:100px;padding-left:3px;padding-right:3px;max-height:260px;width:250px;}
+.share-content-popup ol.recipients{margin:7px 0 7px 0;padding:0;list-style-type:none;}
+.share-content-popup ol.recipients li{margin:5px 0;line-height:24px;word-wrap:normal;}
+.share-content-popup ol.recipients li .title{overflow:hidden;text-overflow:ellipsis;max-width:185px;display:inline-block;vertical-align:middle;}
+.share-content-popup ol.recipients li img{height:24px;width:24px;vertical-align:middle;border-radius:3px;margin-right:5px;}
+.progress-messages{position:absolute;left:0;max-width:110px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;height:30px;}
+.share-content-popup .done{top:7px;background:url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/2.0.8/_/download/resources/com.atlassian.confluence.plugins.share-page:mail-page-resources/images/tick.png) no-repeat;}
+.share-content-popup .error{top:7px;background:url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/2.0.8/_/download/resources/com.atlassian.confluence.plugins.share-page:mail-page-resources/images/error.png) no-repeat;}
+.share-content-popup .autocomplete li.active a span{color:white;}
+.share-page-progress{position:absolute;background-color:white;z-index:1;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.share-page-progress-container-inner{position:absolute;text-align:center;}
+.share-content-popup .remove-recipient{float:right;background:url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/2.0.8/_/download/resources/com.atlassian.confluence.plugins.share-page:mail-page-resources/images/delete.png) no-repeat 100% 50%;text-indent:-9999px;height:24px;width:24px;cursor:pointer;}
+.share-content-popup .aui-dd-parent,#com-atlassian-confluence .share-content-popup .aui-dd-parent .aui-dropdown{width:250px;}
+form.aui .share-page-progress-container-inner p{margin:0;padding-bottom:0;}
+form.share-content-popup .field-group{padding-left:0;}
+form.share-content-popup .field-group.button-panel{padding-bottom:0;margin-bottom:0;line-height:30px;}
+.aui-inline-dialog .contents .share-content-popup .submit{text-align:center;}
+.draft-publishing th.title{width:100%;}
+.draft-publishing th,.draft-publishing td{white-space:nowrap;}
+.draft-publishing td.title{white-space:inherit;}
+.draft-publishing .toolbar-group{margin:0;}
+#publisher-dialog .dialog-panel-body{padding:0;}
+.publisher-dialog .publisher-dialog-comment{padding:10px 20px 10px 20px;}
+.publisher-dialog .publisher-dialog-comment input{width:474px;margin-right:0;}
+.publisher-dialog .publisher-dialog-pages{overflow:auto;}
+.publisher-dialog table.aui{border:0;border-spacing:0;}
+.publisher-dialog .publisher-dialog-pages-title{width:100%;}
+.publisher-dialog th{white-space:nowrap;}
+.publisher-dialog table.aui th,.publisher-dialog table.aui td{padding:5px 20px 5px 20px;}
+.publisher-dialog table td{padding-left:20px;}
+.publisher-dialog td.publisher-dialog-pages-conflict{text-align:center;}
+.publisher-dialog form.aui input.text{margin-left:10px;}
+.publisher-dialog form.aui.create-draft-dialog input.text{min-width:310px;}
+.publisher-dialog .publisher-dialog-progress{padding:16px 20px;}
+.publisher-dialog .publisher-dialog-progress-icon{width:16px;height:16px;display:inline-block;vertical-align:text-bottom;}
+.publisher-dialog .publisher-dialog-progress-icon.done{background:url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/1.5/_/download/resources/com.atlassian.confluence.plugins.confluence-publisher-plugin:publisher-resources/images/tick.png) no-repeat;}
+.publisher-dialog .publisher-dialog-progress-message{line-height:20px;padding-left:10px;}

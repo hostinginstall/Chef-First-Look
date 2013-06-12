@@ -1,0 +1,442 @@
+/* Adds an icon to the insert drop-down gliffy menu item */
+#insert-menu .macro-gliffy .icon{
+    background:transparent url("/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/5.0.7/_/download/resources/com.gliffy.integration.confluence:gliffy-rte-html5-resources/icons/add_diagram_16.gif") 0 0 no-repeat;
+    margin-top:0px;
+}
+/** Rte gliffy edit buttons **/
+#property-panel .macro-property-panel-gliffy-button-image-thumb span.icon {background-position: -32px 0; display:inline-block;}
+#property-panel .macro-property-panel-gliffy-button-image-small span.icon {background-position: -16px 0; display:inline-block;}
+#property-panel .macro-property-panel-gliffy-button-image-medium span.icon {display:inline-block;}
+
+#property-panel .macro-property-panel-gliffy-button-image-thumb span.panel-button-text,
+    #property-panel .macro-property-panel-gliffy-button-image-small span.panel-button-text,
+    #property-panel .macro-property-panel-gliffy-button-image-medium span.panel-button-text {display:none;}
+
+#property-panel a {
+    vertical-align: middle;
+}
+
+/** Gliffy  Tabs **/
+#gliffy-insert a.gliffy-choice-link,
+#gliffy-create a.gliffy-choice-link {
+    color: #666;
+    float:right;
+    font-size:14px;
+    font-weight:400;
+}
+
+#gliffy-insert h2.dialog-title,
+#gliffy-create h2.dialog-title {
+    white-space: normal;
+}
+
+.gliffy-lock-icon {
+    margin: -1px 5px 0 0;
+    vertical-align: middle;
+}
+
+/** Gliffy Template Styling **/
+
+#gliffy-create .gliffy-template {
+  background: none repeat scroll 0 0 #FFFFFF;
+  height: 225px;
+  padding: 8px 8px 30px;
+  width: 218px;
+  margin:5px;
+  text-align:center;
+  float:left;
+}
+
+#gliffy-create .gliffy-template.gliffy-click, ul.gliffy-image-list li.gliffy-selected {
+   background: none repeat scroll 0 0 #e8e8e8;
+}
+
+#gliffy-create .gliffy-template.gliffy-hover, ul.gliffy-image-list li.gliffy-hover {
+   background: none repeat scroll 0 0 #EFEFEF;
+}
+
+#gliffy-create .gliffy-template .gliffy-blank,
+    #gliffy-create .gliffy-template img
+        {
+            border:1px solid #CCC;
+            width:218px;
+            height:218px;
+            background:#FFF;
+            margin-left:-1px;
+        }
+
+#gliffy-create .gliffy-template span {
+      line-height:28px;
+      font-size:inherit;
+}
+
+#gliffy-create .gliffy-template-category button {
+    width: 95%;
+}
+
+.gliffy-dialog-label {
+    padding: 0 10px 0 10px;
+}
+
+.gliffy-dialog-input-text {
+    width: 200px;
+}
+
+/** gliffy insert search **/
+#gliffy-diagram-search-field,
+    #gliffy-diagram-space
+    {
+      float: left;
+      margin-right: 10px;
+    }
+
+#gliffy-diagram-search-field  {width:315px;}
+#gliffy-diagram-space {width: 130px;}
+
+/** Gliffy Editor **/
+#gliffy-editor {
+	z-index : 3004;
+	position:relative;
+}
+
+/** confluence header is bumping the embed down by 17px, use abs positioning instead **/
+#lzapp { position:absolute; top:0;}
+
+.gliffy-error {
+    color: red;
+}
+
+.gliffy-hint {
+    float: left;
+    margin-top: 5px;
+    margin-left: 18px;
+    color: #666666;
+    font-size: inherit;
+}
+
+.gliffy-import-header {
+    padding-bottom: 15px;
+}
+.gliffy-import-label {
+    color: #333333;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.gliffy-import-field-group {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 10px;
+}
+
+.gliffy-import-wait {
+    vertical-align: bottom;
+}
+
+.gliffy-create-import-types{
+    margin:10px 0px 0px 50px;
+}
+
+.gliffy-create-import-types ul{
+    margin:-5px 0px 10px;
+    padding-left:20px;
+}
+
+.gliffy-help-image {
+    float:right; 
+    margin: 10px;
+}
+
+.gliffy-help-image img {
+    border: 1px solid #aaa;
+}
+.gliffy-help-image p {
+    margin-top:5px;
+    font-size: 10px;
+    text-align:center;
+}
+
+.gliffy-help-text {
+    width: 530px;
+    margin: 10px;
+}
+
+.gliffy-dialog-logo {
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.gliffy-help-text li img {
+
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    -moz-box-shadow:    2px 2px 3px 0px #ccc;
+    -webkit-box-shadow: 2px 2px 3px 0px #ccc;
+    box-shadow:         2px 2px 3px 0px #ccc;
+    border: 1px solid #ffffff;
+
+}
+
+a.gliffy-visio {
+    width:150px;
+    height:65px;
+    display:inline-block;
+    float:right;
+    background: url("/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/5.0.7/_/download/resources/com.gliffy.integration.confluence:gliffy-rte-html5-resources/icons/got_visio.png") no-repeat scroll top left #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.gliffy-import-missing-shape {
+    width:50px;
+    height:50px;
+    margin:10px 10px 10px 0px;
+    display:inline-block;
+    float:right;
+    background: url("/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/5.0.7/_/download/resources/com.gliffy.integration.confluence:gliffy-rte-html5-resources/icons/visio_missing_shape.png") no-repeat scroll top left #FFFFFF;
+}
+
+a.gliffy-visio:hover{
+    background-color: #EFEFEF;
+}
+
+ul.gliffy-image-list {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.gliffy-image-list li {
+    cursor: default;
+    display: inline;
+    float: left;
+    margin: 0 0 10px;
+    max-width: 144px;
+    padding: 10px 0 3px;
+    text-align: center;
+}
+
+ul.gliffy-image-list li .gliffy-image-container {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #F0F0F0;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 21px 5px;
+    padding: 0;
+    position: relative;
+    vertical-align: top;
+    width: 100px;
+}
+
+ul.gliffy-image-list li .caption {
+    color: #333333;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 140px;
+}
+
+#gliffy-header-message {
+    background-color: #FFFFCE;
+    border: 1px solid #F0C000;
+    float: right;
+    font-size: 10px;
+    line-height: 21px;
+    margin: 10px;
+    padding: 0 4px;
+    display:none;
+}
+
+#gliffy-insert a.gliffy-choice-link-disabled {
+    text-decoration: line-through;
+}
+
+#gliffy-html5-blanket {
+    background: none repeat scroll 0 0 #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 21000;
+}
+
+#gliffy-html5-spinner {
+    width:120px;
+    height:120px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-60px 0 0 -60px;
+    z-index: 22501;
+}
+
+/** BEGIN -- COPIED FROM LINKNAV.CSS */
+#gliffy-insert-link-dialog .gliffy-search-results, #gliffy-insert-link-dialog .gliffy-data-table {
+    clear: both;
+    height: 455px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.gliffy-data-table {
+    color: #666666;
+    font-size: inherit;
+    padding: 0;
+}
+
+.gliffy-hidden, li.gliffy-hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+#gliffy-insert-link-dialog .gliffy-search-results, #gliffy-insert-link-dialog .gliffy-data-table {
+    clear: both;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.gliffy-data-table {
+    color: #666666;
+    font-size: inherit;
+    padding: 8px 8px 8px 12px;
+}
+
+.gliffy-data-table table {
+    border-collapse: collapse;
+    margin: 5px 0 0;
+    width: 100%;
+}
+
+.gliffy-data-table table {
+    border-collapse: collapse;
+}
+
+.gliffy-data-table tr {
+    border: medium none;
+    cursor: default;
+    margin: 0;
+    padding: 0;
+}
+
+#gliffy-insert-link-dialog .gliffy-data-table .gliffy-title-field {
+    width: 50%;
+}
+
+#gliffy-insert-link-dialog .gliffy-data-table th, #gliffy-insert-link-dialog .gliffy-data-table td {
+    padding-right: 1%;
+    vertical-align: top;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.gliffy-data-table .gliffy-data-table-header th {
+    border-bottom: 1px solid #F0F0F0;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.gliffy-data-table .gliffy-title-field, .gliffy-data-table .gliffy-anchor-field {
+    padding-left: 10px;
+}
+
+.gliffy-data-table td, .gliffy-data-table th {
+    font-size: inherit;
+    line-height: 24px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+
+#gliffy-insert-link-dialog .gliffy-data-table .gliffy-space-field {
+    width: 25%;
+}
+
+#gliffy-insert-link-dialog .gliffy-data-table .gliffy-last-modified-field {
+    width: 25%;
+}
+
+.gliffy-data-table .gliffy-anchor-type-field {
+    width:30%;
+}
+
+.gliffy-data-table tr.gliffy-selected, .gliffy-data-table tr.gliffy-selected a, .gliffy-data-table tr.gliffy-selected td {
+    background-color: #6699CC;
+    color: #FFFFFF;
+}
+
+.gliffy-data-table table {
+    border-collapse: collapse;
+}
+
+.gliffy-data-table td, .gliffy-data-table td a {
+    cursor: default;
+    text-decoration: none;
+}
+
+#gliffy-insert-link-dialog .gliffy-data-table .gliffy-title-field span {
+    background-position: 0 4px;
+    height: auto;
+    line-height: 1.3;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+}
+
+.gliffy-data-table .gliffy-title-field span {
+    display: block;
+    padding-left: 20px;
+}
+
+.gliffy-data-table td, .gliffy-data-table td a {
+    color: #666666;
+    cursor: default;
+    text-decoration: none;
+}
+
+.gliffy-data-table .gliffy-anchor-field span {
+    padding-left: 15px;
+}
+
+.gliffy-data-table .gliffy-anchor-field code {
+    padding-left: 10px;
+}
+
+/** END -- COPIED FROM LINKNAV.CSS */
+
+.gliffy-spinner-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    background: #666666 url('/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/5.0.7/_/download/resources/com.gliffy.integration.confluence:gliffy-rte-html5-resources/images/editor/spinner_squares.gif') no-repeat center center;
+    z-index: 20002;
+    opacity: 1.0;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /*border: 1px solid #ccc;*/
+}
+
+.gliffy-spinner-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #999999;
+    opacity: 0.4;
+    z-index: 20001;
+}
+
+.gliffy-search-panel .description {
+    padding : 8px 8px 8px 12px;
+}

@@ -1,0 +1,18 @@
+#pagetreesearch form input.text{margin:0 8px 8px 0;}
+#pagetreesearch form input.aui-button{margin:0;}
+#splitter-sidebar #pagetreesearch form{white-space:nowrap;}
+div.plugin_pagetree div.error{padding-left:15px;}
+div.plugin_pagetree ul.plugin_pagetree_children_list_noleftspace{margin-left:0;padding-left:0;}
+div.plugin_pagetree ul.plugin_pagetree_children_list{list-style-type:none;margin-bottom:0;padding-left:0;}
+div.plugin_pagetree ul.plugin_pagetree_children_list li ul.plugin_pagetree_children_list{padding-left:16px;}
+div.plugin_pagetree ul.plugin_pagetree_children_list li,div.plugin_pagetree ul.plugin_pagetree_children_list li div.plugin_pagetree_children_container{clear:left;overflow:hidden;width:100%;}
+div.plugin_pagetree ul.plugin_pagetree_children_list li .plugin_pagetree_children_content{float:left;width:85%;text-decoration:none;}
+div.plugin_pagetree a:link{text-decoration:none;}
+div.plugin_pagetree a:hover{text-decoration:underline;}
+div.plugin_pagetree ul.plugin_pagetree_children_list li .plugin_pagetree_childtoggle_container{float:left;width:15px;}
+div.plugin_pagetree .plugin_pagetree_childtoggle_container{padding-bottom:2px;}
+div.plugin_pagetree ul.plugin_pagetree_children_list li{padding:2px 0;}
+div.plugin_pagetree ul.plugin_pagetree_children_list li:last-child{padding:2px 0 0 0;}
+.plugin_pagetree_childtoggle_container .icon-minus{background:transparent url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/2.1.5/_/download/resources/com.atlassian.confluence.plugins.pagetree:pagetree-resources/../../../images/icons/tree_minus.gif) no-repeat scroll 0 4px;}
+.plugin_pagetree_childtoggle_container .icon-plus{background:transparent url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/2.1.5/_/download/resources/com.atlassian.confluence.plugins.pagetree:pagetree-resources/../../../images/icons/tree_plus.gif) no-repeat scroll 0 4px;}
+.plugin_pagetree_childtoggle_container .icon-square{background:transparent url(/s/en_GB-1988229788/4226/d7686547091e645d7b0285207c0b86be721c74eb.27/2.1.5/_/download/resources/com.atlassian.confluence.plugins.pagetree:pagetree-resources/../../../images/icons/tree_square.gif) no-repeat scroll 0 4px;}
